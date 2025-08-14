@@ -131,11 +131,11 @@ export default function MovieForm() {
       </div>
 
       <div className="actions">
-        <button className="btn" type="submit">ส่งแบบสำรวจ</button>
+        <button className="btn" type="submit">SUBMIT</button>
         <button className="btn secondary" type="button" onClick={handleReset}>
-          รีเซ็ตฟอร์ม
+          RESET
         </button>
       </div>
     </form>
-  );
+  );  
 }
